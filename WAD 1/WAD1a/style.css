@@ -1,0 +1,89 @@
+style.css
+body{
+margin:0;
+font-family:Segoe UI;
+background:#f5f7fb;
+}
+
+/* Sidebar */
+.sidebar{
+height:100vh;
+background:linear-gradient(180deg,#1e3c72,#2a5298);
+padding:20px;
+color:white;
+}
+
+.sidebar a{
+display:block;
+color:white;
+text-decoration:none;
+padding:12px;
+margin:8px 0;
+border-radius:8px;
+transition:.3s;
+}
+
+.sidebar a:hover{
+background:rgba(255,255,255,0.2);
+padding-left:18px;
+}
+
+/* Main Section */
+.main{
+padding:25px;
+}
+
+/* Topbar */
+.topbar{
+background:white;
+padding:15px 25px;
+border-radius:12px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.admin{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.admin img{
+border-radius:50%;
+}
+
+/* Cards */
+.dashboard-card{
+border:none;
+border-radius:15px;
+color:white;
+text-align:center;
+padding:25px;
+transition:.3s;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.dashboard-card:hover{
+transform:translateY(-8px);
+}
+
+.dashboard-card i{
+font-size:32px;
+margin-bottom:10px;
+}
+
+/* Card Colors */
+.blue{background:#4e73df;}
+.green{background:#1cc88a;}
+.orange{background:#f6c23e;}
+.purple{background:#6f42c1;}
+
+/* Table Box */
+.table-box{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
